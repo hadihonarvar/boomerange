@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "boomerangdb"
+  },
+  "AccessToken": {
+    "dataSource": "boomerangdb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "boomerangdb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "boomerangdb",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "boomerangdb",
+    "public": false
+  },
+  "usr": {
+    "dataSource": "boomerangdb",
+    "public": true
+  },
+  "interest": {
+    "dataSource": "boomerangdb",
+    "public": true
+  }
+}

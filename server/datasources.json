@@ -1,0 +1,12 @@
+{
+  "boomerangdb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/boomerangdb",
+    "database": "boomerangdb",
+    "password": "1234",
+    "name": "boomerangdb",
+    "user": "hadi",
+    "connector": "mongodb"
+  }
+}
